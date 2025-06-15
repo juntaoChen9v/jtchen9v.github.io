@@ -4,7 +4,7 @@
 /* ========= Background, Font & Overlay ========= */
 body{
   font-family:"Times New Roman",Times,serif;
-  background:url("images/Newcastle-upon-Tyne.jpg") no-repeat center/cover fixed;
+  background:url("Chicago.jpg") no-repeat center/cover fixed;
   filter:brightness(0.98) saturate(1);
   color:#111;
   line-height:1.6;
@@ -16,7 +16,7 @@ body::before{
   content:"";
   position:fixed;
   inset:0;
-  background:rgba(255,255,255,0.15);      /* 保持 0.15 透明度 */
+  background:rgba(255,255,255,0.10);      /* 保持 0.15 透明度 */
   backdrop-filter:blur(0.2px);
   pointer-events:none;
   z-index:-1;
