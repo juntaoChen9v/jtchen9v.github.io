@@ -34,6 +34,25 @@ body::before {
   padding: 40px 20px;
   gap: 40px;
 }
+.primary-email {
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.primary-email a {
+  color: #333;
+  text-decoration: none;
+}
+
+.primary-email a:hover {
+  color: #1e40af;
+  text-decoration: underline;
+}
+
+.primary-email span {
+  color: #2563eb;
+}
 
 /* ========= Sidebar ========= */
 .sidebar {
