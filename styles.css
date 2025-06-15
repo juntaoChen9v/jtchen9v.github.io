@@ -52,7 +52,7 @@ body::before{
 .profile h1{
   font-size:1.8rem;
   margin-bottom:8px;
-  color:#5a7691;
+  color:#000;
 }
 .profile .sub{
   font-size:.95rem;
@@ -118,7 +118,7 @@ main h2{
   margin-bottom:16px;
   border-left:4px solid #6aa884;
   padding-left:12px;
-  color:#5a7691;
+  color:#000;
 }
 main section{
   margin-bottom:48px;
