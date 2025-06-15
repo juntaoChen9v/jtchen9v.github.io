@@ -117,6 +117,13 @@ body::before {
   font-size: 1rem;
   color: #333;
 }
+.icon-text-list a {
+  max-width: 200px; /* 200px */
+  display: inline-block;
+  white-space: nowrap; 
+  overflow: hidden;    
+  text-overflow: ellipsis; 
+}
 
 .icon-text-list i {
   font-size: 1.3rem;
