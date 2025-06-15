@@ -4,7 +4,7 @@
 /* ========= Background, Font & Overlay ========= */
 body{
   font-family:"Times New Roman",Times,serif;
-  background:url("Chicago.jpg") no-repeat center/cover fixed;
+  background:url("images/Newcastle-upon-Tyne.jpg") no-repeat center/cover fixed;
   filter:brightness(0.98) saturate(1);
   color:#111;
   line-height:1.6;
