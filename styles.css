@@ -68,7 +68,7 @@ body::before{
   gap:18px;
 }
 .social-links a{
-  color:#777;
+  color:#000;
   font-size:1.3rem;
   transition:color .2s;
 }
