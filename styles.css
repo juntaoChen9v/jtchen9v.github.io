@@ -64,7 +64,7 @@ body::before{
   font-size:1.3rem;
   transition:color .2s;
 }
-.social-links a:hover{color:#1e40af;}
+.social-links a:hover{color:##6aa884;}
 
 /* Icon + text list */
 .icon-text-list{
@@ -78,11 +78,11 @@ body::before{
   gap:10px;
   margin-bottom:10px;
   font-size:1rem;
-  color:#333;
+  color:#000;
 }
 .icon-text-list i{font-size:1.2rem;width:20px;}
 .icon-text-list a{color:#333;text-decoration:none;}
-.icon-text-list a:hover{color:#1e40af;text-decoration:underline;}
+.icon-text-list a:hover{color:#6aa884;text-decoration:underline;}
 
 /* ========= Main Content ========= */
 .main-content{flex:1;}
