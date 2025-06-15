@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- ① Google Search Console — 把 VERIFY_CODE 换成你控制台给的字符串 -->
+  <meta name="google-site-verification" content="C_dQcFNXhjPmU06mKevyCnamId0brZMV_wgLy4jRnG8">
+
+  <!-- ② 核心 SEO -->
+  <title>Chengze Li – Columbia University / UIC | AI & Medical Imaging</title>
+  <meta name="description"
+        content="Chengze Li, PhD student (UIC, ex-Columbia). Research interests: radiation-oncology AI, large language models, numerical methods and optimisation.">
+
+  <!-- ③ Canonical（防重复） -->
+  <link rel="canonical" href="https://cl4460.github.io/">
+
+  <!-- ④ Open-Graph / Twitter Cards -->
+  <meta property="og:type"        content="profile">
+  <meta property="og:title"       content="Chengze Li – Columbia University / UIC">
+  <meta property="og:description" content="PhD student in Computer Science, UIC. Former Columbia MS. Research: AI for medical imaging & LLMs.">
+  <meta property="og:url"         content="https://cl4460.github.io/">
+  <meta property="og:image"       content="https://cl4460.github.io/images/profile.jpg">
+
+  <!-- ⑤ JSON-LD 结构化数据 -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"Person",
+    "name":"Chengze Li",
+    "url":"https://cl4460.github.io/",
+    "affiliation":[
+      {"@type":"CollegeOrUniversity","name":"University of Illinois Chicago"},
+      {"@type":"CollegeOrUniversity","name":"Columbia University"}
+    ],
+    "sameAs":[
+      "https://scholar.google.com/citations?user=IcvamkoAAAAJ",
+      "https://www.linkedin.com/in/chengze-li-147313289",
+      "https://github.com/cl4460"
+    ]
+  }
+  </script>
+
+
+  <!-- 主样式 -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-1oFvYF0yv8vnbfXq/2jMYYUuwISxzstVWjEOPiu2j0n/Kyq4PHfKjNmI3Bz5WUuDblRk2M7sRrLy4aHk2z8+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- ───── Sidebar ───── -->
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="images/profile.jpg" alt="Chengze Li" class="avatar">
+        <h1>Chengze Li</h1>
+        <p class="sub">Ph.D. Student in Computer Science</p>
+        <p class="sub">University of Illinois at Chicago</p>
+
+        <!-- icon row（保持不变，可做 hover 效果） -->
+        <nav class="social-links">
+          <a href="https://scholar.google.com/citations?user=IcvamkoAAAAJ&hl=en" target="_blank" title="Google Scholar">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </a>
+          <a href="mailto:chengze6@illinois.edu" title="E-mail">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/chengze-li-147313289" target="_blank" title="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/cl4460" target="_blank" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </nav>
+
+        <!-- 图标 + 文字纵向列表 -->
+        <ul class="icon-text-list">
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email: chengze6@uic.edu</span>
+          </li>
+          <li>
+            <i class="fa-solid fa-graduation-cap"></i>
+            <a href="https://scholar.google.com/citations?user=IcvamkoAAAAJ&hl=en" target="_blank">Google Scholar</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/chengze-li-147313289" target="_blank">LinkedIn</a>
+          </li>
+          <li>
+            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/cl4460" target="_blank">GitHub</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-file-lines"></i>
+            <a href="CV.pdf" target="_blank">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <!-- ───── Main content ───── -->
+    <main class="main-content">
+      <div class="main-content-inner">
+
+        <!-- About -->
+        <section id="about">
+          <h2>About Me</h2>
+          <p style="margin-bottom: 1.1em;">
+            I am currently a PhD student in Computer Science at the University of Illinois at Chicago under the supervision of Prof. Philip Yu. 
+          </p>
+          <p style="margin-bottom: 1.1em;"> 
+            I earned two bachelor's degrees, one in Mathematics from the <a href="https://uncw.edu/academics/colleges/cse/departments/math-statistics/?utm_source=math&utm_medium=301&utm_id=REDIR1" target="_blank">University of North Carolina Wilmington</a> and one in Mathematics and Applied Mathematics from Chongqing University of Arts and Sciences. In February 2025, under the guidance of Prof. Michael Tippett, I completed a Master of Science in Applied Mathematics at <a href="https://engineering.columbia.edu/" target="_blank">Fu Foundation School of Engineering and Applied Science</a>, Columbia University. 
+          </p>
+          <p style="margin-bottom: 1.1em;"> 
+            My recent research focuses on applying deep learning and LLMs to radiation oncology, and I am also passionate about AI work grounded in numerical methods, algorithm analysis, dynamical systems, optimization, and computational mathematics. The greatest motivation for my doctoral studies is the chance to apply what I learn in practical settings and deliver meaningful, beneficial results to the real world.
+          </p>
+        </section>
+
+        <!-- News -->
+        <section id="news">
+          <h2>News</h2>
+          <ul>
+            <li>2025.05 — Co-authored <a href="https://arxiv.org/pdf/2504.11544" target="_blank">"NodeRAG: Structuring Graph-based RAG with Heterogeneous Nodes"</a> with Tianyang Xu, under review at EMNLP 2025.</li>
+            <li>2025.04 — Admitted as a first-year Ph.D. student under the guidance of Prof. Philip Yu at the University of Illinois at Chicago, concentrating on multimodal AI systems for medical applications.</li>
+            <li>2025.03 —Serving as Research Scientist at <a href="https://www.manteiamedical.com/" target="_blank">Manteia Technologies Co., Ltd.</a> in Milwaukee, WI, I applied AI and machine-learning methods to innovate at the intersection of radiation oncology and computational intelligence, with a focus on clinical decision support.</li>
+            <li>2024.11 — In collaboration with Prof. Sharon Qi of University of California, Los Angeles's Radiation Oncology Department, co-investigating state-of-the-art convolutional and transformer-based segmentation architectures to enhance model accuracy and robustness for tumor delineation in radiotherapy planning.</li>
+            <li>2024.08 — As the research assistant at <a href="https://www.ldeo.columbia.edu/" target="_blank">Lamont-Doherty Earth Observatory</a>, under Profs. Michael Tippett & Chia-Ying Lee, used PDE boundary filters and EAR5/MERRA/NeuralGCM data mining to fine-tune TempestExtremes for global tropical cyclone and tornado forecasting.</li>
+            <li>2024.07 — Partnered with Prof. Haiying Shen in the Computer Science Department at the University of Virginia to optimize LRU cache replacement strategies and lookahead algorithms for LLMs key–value caching.</li>
+          </ul>
+        </section>
+
+        <!-- Research Interests -->
+        <section id="interests">
+          <h2>Research Interests</h2>
+          <ul>
+            <li>Medical Image Processing</li>
+            <li>Natural Language Processing (Large Language Models)</li>
+            <li>Machine Learning</li>
+            <li>Numerical Methods & Modeling</li>
+          </ul>
+        </section>
+
+        <!-- Publications -->
+        <section id="publications">
+          <h2>Publications</h2>
+
+          <!-- Publication 1 -->
+          <div class="pub-card">
+            <div class="pub-image">
+              <img src="images/patient_specific.jpg" alt="Auto-Segmentation paper">
+            </div>
+            <div class="pub-info">
+              <h3>Patient-specific Daily Updated Deep-Learning Auto-Segmentation for MRI-Guided Adaptive Radiotherapy</h3>
+              <p class="authors">
+                Zhenjiang Li, Wei Zhang, Baosheng Li, Jian Zhu, Yinglin Peng, <strong>Chengze Li</strong>, …
+              </p>
+              <p class="venue">Radiotherapy and Oncology, Dec 2022</p>
+              <div class="links">
+                <a href="https://www.thegreenjournal.com/action/showPdf?pii=S0167-8140%2822%2904551-0" target="_blank">
+                  <i class="fa-solid fa-file-pdf"></i> PDF
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Publication 2 -->
+          <div class="pub-card">
+            <div class="pub-image">
+              <img src="images/NodeRAG.jpg" alt="NodeRAG paper">
+            </div>
+            <div class="pub-info">
+              <h3>NodeRAG: Structuring Graph-based RAG with Heterogeneous Nodes</h3>
+              <p class="authors">
+                Tianyang Xu, Haojie Zheng, <strong>Chengze Li</strong>, Haoxiang Chen, Yixin Liu, Ruoxi Chen, Lichao Sun
+              </p>
+              <p class="venue">Submitted to EMNLP 2025</p>
+              <div class="links">
+                <a href="https://arxiv.org/pdf/2504.11544" target="_blank">
+                  <i class="fa-solid fa-file-pdf"></i> PDF
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </section>
+      </div><!-- /main-content-inner -->
+    </main>
+  </div><!-- /container -->
+</body>
+</html>
