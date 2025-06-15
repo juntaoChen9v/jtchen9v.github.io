@@ -97,7 +97,7 @@ body::before{
 main h2{
   font-size:1.6rem;
   margin-bottom:16px;
-  border-left:4px solid #2563eb;
+  border-left:4px solid #8ab6d6;
   padding-left:12px;
   color:#000;
 }
@@ -152,7 +152,7 @@ main section{margin-bottom:48px;}
 }
 .links a{
   text-decoration:none;
-  color:#2563eb;
+  color:#8ab6d6;
   font-size:.9rem;
   display:inline-flex;
   align-items:center;
