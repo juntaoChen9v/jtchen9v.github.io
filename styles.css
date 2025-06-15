@@ -129,7 +129,7 @@ main section{margin-bottom:48px;}
 .pub-image img{
   width:180px;
   height:180px;
-  object-fit:cover;
+  object-fit: contain;
 }
 .pub-info{
   padding:16px 20px;
