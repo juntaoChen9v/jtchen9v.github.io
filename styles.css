@@ -143,7 +143,7 @@ main section{
 /* ========= Publication Cards ========= */
 .pub-card{
   display:flex;
-  background:#f1f5f9;
+  background:#6aa884;
   border-radius:8px;
   overflow:hidden;
   box-shadow:0 4px 8px rgba(0,0,0,.04);
@@ -184,7 +184,7 @@ main section{
 }
 .links a:hover{
   text-decoration:underline;
-  color:#4e8d6e;
+  color:#6aa884;
 }
 
 /* ========= Responsive ========= */
