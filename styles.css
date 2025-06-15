@@ -115,10 +115,10 @@ main section{margin-bottom:48px;}
   margin-bottom:6px;
   font-size:.96rem;
 }
+
 /* ========= Publication Cards ========= */
 .pub-card{
   display:flex;
-  align-items: center;
   background:#f8fafc;
   border-radius:8px;
   overflow:hidden;
@@ -126,9 +126,12 @@ main section{margin-bottom:48px;}
   margin-bottom:24px;
 }
 .pub-image img{
-  width:60%;
-  height:60%;
-  object-fit: contain;
+  width:180px;
+  height:120px;
+  object-fit:contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .pub-info{
   padding:16px 20px;
@@ -137,7 +140,7 @@ main section{margin-bottom:48px;}
 .pub-info h3{
   font-size:1.1rem;
   margin-bottom:8px;
-  color:#000;
+  color:#003366;
 }
 .pub-info .authors{
   font-size:.9rem;
@@ -152,7 +155,7 @@ main section{margin-bottom:48px;}
 }
 .links a{
   text-decoration:none;
-  color:#6aa884;
+  color:#2563eb;
   font-size:.9rem;
   display:inline-flex;
   align-items:center;
