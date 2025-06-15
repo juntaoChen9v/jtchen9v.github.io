@@ -5,17 +5,31 @@
   box-sizing: border-box;
 }
 
-/* ========== Global Font & Background ========= */
+/* ========== Global Font & Background ========== */
 body {
   font-family: "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+
+  /*  */
   background: 
-    linear-gradient(rgba(30, 41, 59, 0.3), rgba(0, 0, 0, 0.3)),
-    url("Newcastle-upon-Tyne.jpg") no-repeat center/cover fixed;
-  color: #1a1a1a;
-  filter: brightness(1);
+    linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)),
+    url("Newcastle-upon-Tyne.jpg") no-repeat center center fixed;
+
+  background-size: cover;
+
+  /*  */
+  color: #111;
+
+  /*  contrast 或 saturate */
+  filter: none;
+
   line-height: 1.7;
   position: relative;
+
+  /*  */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
 
 /* --- Overlay to Soften Highlights --- */
 body::before {
