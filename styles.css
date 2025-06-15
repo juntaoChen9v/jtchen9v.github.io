@@ -126,8 +126,8 @@ main section{margin-bottom:48px;}
   margin-bottom:24px;
 }
 .pub-image img{
-  width:180px;
-  height:120px;
+  width:200px;
+  height:200px;
   object-fit:contain;
   display: flex;
   justify-content: center;
